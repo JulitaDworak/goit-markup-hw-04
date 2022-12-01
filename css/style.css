@@ -107,8 +107,6 @@ body ul {
   padding-right: 93px;
   margin-top: 24px;
   padding-left: 100px;
-
-
 }
 
 .span {
@@ -178,11 +176,10 @@ body ul {
   background: var(--order-container-bcg-color);
   letter-spacing: 0.06em;
   align-items: center;
-padding: 200px;
+padding-right: 200px;
+padding-left: 200px;
 text-align: center;
- /* display: inline-block;
- margin-left:0;
- margin-left: 237px;; */
+margin-bottom: 94px;
 
 }
 .order-description {
@@ -197,6 +194,7 @@ text-align: center;
   margin-bottom: 0px;
    justify-content: center;
    align-items: center;
+padding: 106px 200px 30px 200px;
 }
 
 .order-btn {
@@ -207,8 +205,8 @@ text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   justify-content: left;
   align-items: center;
-  margin-top: 30px;
 padding: 10px 42px;
+margin-bottom: 104px;
   border-radius: 4px;
 
   color: var(--order-btn-color);
@@ -360,8 +358,6 @@ justify-content: center;
   margin-top: 20px;
   margin-bottom: 0px;
   padding-left: 0;
-
-
 }
 
 .localization {
@@ -464,9 +460,8 @@ figure {
   padding: 0;
 }
 
-.products-grid figure {
-  /* width: 370px;
-  height: 404px; */
+
+.products-grid li {
   margin: 0;
   padding: 0;
   vertical-align: bottom;
