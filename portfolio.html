@@ -19,39 +19,41 @@
 </head>
 
 <body>
+    <header class="header" >
         <div class="container">
-        <div class="header ">
-            <nav>
-                <div class="nav-main-logo-container">
-                    <a class="logo-nav-header link" href="index.html"><span class="span">Web</span>Studio</a>
-                    <a class="agency link" href="agencja.html">Agencja</a>
-                    <a class="portfolio link " href="portfolio.html">Portfolio</a>
-                    <a class="contact link " href="kontakt.html">Kontakt</a>
-                </div>
-            </nav>
-            <ul class="nav-contact">
-                <li> <a class="contact-email link" href="mailto:info@webstudio.com">info@webstudio.com</a></li>
-                <li><a class="contact-tel link" href="tel:+48111111111">+48 111 111 111</a></li>
-            </ul>
-</div>
+        <div class="nav-main-logo-container">
+        <nav>
+                <a class="logo-nav-header link" href="index.html"><span class="span">Web</span>Studio</a>
+                <a class="agency link" href="agencja.html">Agencja</a>
+                <a class="portfolio link " href="portfolio.html">Portfolio</a>
+                <a class="contact link " href="kontakt.html">Kontakt</a>
+        </nav>
+       <div class="nav-contact-container">
+        <ul >
+            <li> <a class="contact-email link" href="mailto:info@webstudio.com">info@webstudio.com</a></li>
+            <li><a class="contact-tel link" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+       </div>
         </div>
-    </header>
+</header>
     <main>
-        <div class="container section">
+    <div class="section"> 
         <!-- projekty filtrowanie -->
-        <section class="filter-btn-container">
-            <ul  >
+        <div class="filter-btn-container">
+            <div class="container">
+            <ul >
                 <li><button class="filter-btn" type="button">Wszystkie</button></li>
                 <li><button class="filter-btn" type="button">Strony</button></li>
                 <li><button class="filter-btn" type="button">Aplikacje</button></li>
                 <li><button class="filter-btn" type="button">Dizajn</button></li>
                 <li><button class="filter-btn" type="button">Marketing</button></li>
             </ul>
-        </section>
+            </div>
+        </div>
         <!-- wizualizacje  -->
-        <section class="products-container ">
-            <div >
-                <ul class="products-grid section">
+        <div class="products-container ">
+            <div class="container">
+                <ul class="products-grid ">
                     <li>
                         <figure>
                             <img src="images/portfolio/3people.jpg"
@@ -124,21 +126,24 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
+    </section>  
     </div>
     </main>
     <div class="container-bcg-dark">
         <div class="container">
-        <footer class="footer-container">
-            <a class="logo-footer link" href="index.html"><span class="span">Web</span>Studio</a>
-            <address>
-                <ul class="footer-adress-item">
-                    <li class="localization">m. Warszawa, Aleje Jerozolimskie 21</li>
-                    <li><a class="contact-email-footer link" href="mailto:info@webstudio.com">info@webstudio.com</a></li>
-                    <li><a class="contact-tel-footer link" href="tel:+48111111111">+48 111 111 111</a></li>
-                </ul>
-            </address>
-        </footer>
+            <footer class="footer-container">
+                <div class="container"> 
+                    <div class="container-bcg-dark">
+                    <a class="logo-footer link" href="index.html"><span class="span">Web</span>Studio</a>
+                <address>
+                    <ul class="footer-adress-item">
+                        <li class="localization">m. Warszawa, Aleje Jerozolimskie 21</li>
+                        <li><a class="contact-email-footer link" href="mailto:info@webstudio.com">info@webstudio.com</a></li>
+                        <li><a class="contact-tel-footer link" href="tel:+48111111111">+48 111 111 111</a></li>
+                    </ul>
+                </address>
+            </footer>
     </div>
     </div>
 </body>
