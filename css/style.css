@@ -138,7 +138,7 @@ body ul {
   font-size: var(--nav-font-size);
   line-height: var(--nav-line-height);
   color: var(--nav-color);
-  padding-right: 0px;
+  padding-right: 371px;
 }
 .nav-contact-container ul{
    display: flex;
@@ -163,7 +163,7 @@ body ul {
   font-size: var(--nav-font-size);
   line-height: var(--nav-line-height);
   color: var(--nav-color-email-tel);
-  padding-right:227px ;
+  /* padding-right:227px ; */
 
 }
 
@@ -289,12 +289,11 @@ justify-content: center;
 .team-container-li {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .team-container figure {
   background-color: #ffffff;
-  width: 270px;
-  height: 368px;
   margin: 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius:3px ;
@@ -314,11 +313,15 @@ justify-content: center;
   flex-wrap: wrap;
 }
 
-.team-container li figure figcaption span {
+.team-container span {
+  padding-bottom: 30px;
+}
+
+.team-container figure figcaption span {
   line-height: var(--span-img-description-line-height);
   color: var(--span-img-description-color);
   align-items: center;
-  margin: 10px 70px 30px 70px;
+  margin: 10px 70px ;
   display: block;
   flex-wrap: nowrap;
 }
@@ -327,9 +330,9 @@ justify-content: center;
   line-height: var(--span-img-description-line-height);
   color: var(--span-img-description-color);
   align-items: center;
-  margin: 10px 62px 30px 61px;
+  margin: 10px 62px 0px 61px;
   display: block;
-  width: 171px;
+  /* width: 171px; */
   justify-content: center;
   flex-wrap: nowrap;
 }
@@ -438,8 +441,7 @@ justify-content: center;
 figure {
   margin: 0;
   padding: 0;
-  /* border: 1px;
-  border-color: 1px rgba(238, 238, 238, 1); */
+
 }
 .products-grid {
   display: grid;
@@ -465,6 +467,7 @@ figure {
   display: block;
   width: 100%;
   justify-content: start;
+  line-height: 2;
   margin-bottom: 4px;
   justify-content: start;
   border-top: none;
@@ -476,20 +479,18 @@ figure {
   display: block;
   padding-bottom: 20px;
   justify-content: start;
-  line-height: var(--span-img-description-line-height);
   color: var(--span-img-description-color);
   padding-top: 4px;
+  line-height: 2;
 }
 
 .products-container span {
-  line-height: var(--span-img-description-line-height);
   color: var(--span-img-description-color);
   margin: 0;
 }
 
 .products-container figcaption {
   font-weight: var(--figcaption-font-weight);
-  line-height: var(--figcaption-line-height);
   color: var(--h2-h3-figcaption-color);
   margin: 0;
 }
