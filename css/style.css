@@ -208,7 +208,7 @@ margin: 34px 10px 34px 0px;
 .order-container{
   background: var(--order-container-bcg-color);
   /* background-color: #2196f3; */
-  background-image: url("/images/bcg.jpg");
+  background-image: url("./images/bcg.jpg");
   background-size: auto 600px;
   background-repeat: no-repeat;
   background-position: center;
